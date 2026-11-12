@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.accent {
+  color: #4d5ae5;
+}
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.btn-hero-button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.btn-hero-button:hover,
+.btn-hero-button:focus {
+  color: #fff;
+}
