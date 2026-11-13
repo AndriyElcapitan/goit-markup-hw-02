@@ -1,4 +1,5 @@
 body {
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -30,11 +31,9 @@ address {
 .accent {
   color: #4d5ae5;
 }
-.socials {
-}
-.socials-item {
-}
-.socials-link {
+.socials-link:hover,
+.socials-link:focus {
+  color: #404bbf;
 }
 .btn-hero-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -47,5 +46,6 @@ address {
 }
 .btn-hero-button:hover,
 .btn-hero-button:focus {
+  background-color: #404bbf;
   color: #fff;
 }
